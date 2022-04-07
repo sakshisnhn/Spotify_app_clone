@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 3px;
+    padding: 0;
+}
+.brand img{
+    border-radius: 300px ;
+    width: 29px;
+    padding: 5px;
+}
+nav{
+    font-family: 'Italianno', cursive;
+    
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 40px;
+    background-color: brown;
+    align-items: center;
+}
+nav ul li{
+    padding: 9px 14px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+.container{
+    min-height: 75vh;
+    background-color:black;
+    color: rgb(245, 245, 220);
+    font-family: 'Italianno', cursive ;
+    display: flex;
+    margin: 20px 300px;
+    width: 70%;
+    border-radius: 20px;
+    background-image: url("bg.jpg");
+}
+.bottom{
+    position: sticky;
+    height: 86px;
+    background-color: rgb(5, 5, 5);
+    color: #e8c958f7;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons i{
+    cursor: pointer;
+}
+#progress_bar{
+    width: 90vw;
+}
+.song_items_container{
+    margin-top: 47px;
+}
+.song_items{
+    height: 40px;
+    display: flex;
+    background-color: white;
+    width: 26vw;
+    margin: 12px 0 ;
+    color: #000;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.song_items img{
+    width: 40px;
+    margin: 0 23px;
+    border-radius: 20px;
+}
+.timestamp i{
+    cursor: pointer;
+}
